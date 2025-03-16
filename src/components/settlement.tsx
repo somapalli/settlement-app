@@ -201,7 +201,7 @@ const PacoSettlementApp: React.FC = () => {
 
   return (
     <div className="paco-settlement">
-      <h1>PACO Settlement</h1>
+      <h1>PACO Settlement App</h1>
       {error && <div className="error-message">{error}</div>}
 
       <div className={`game-container ${gameEnded ? 'game-ended' : ''}`}>
